@@ -37,15 +37,7 @@ repositories {
 	maven {
 		url = uri("https://storage.googleapis.com/devan-maven/")
 	}
-	maven {
-		name = "Technici4n"
-		url = "https://raw.githubusercontent.com/Technici4n/Technici4n-maven/master/"
-		content {
-			includeGroup "net.fabricmc.fabric-api"
-		}
-	}
 	mavenCentral()
-	mavenLocal()
 }
 
 dependencies {
